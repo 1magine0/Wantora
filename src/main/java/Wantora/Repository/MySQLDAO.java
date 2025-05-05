@@ -18,9 +18,9 @@ public class MySQLDAO implements IDAO {
     public MySQLDAO() throws SQLException {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/Wantora";
+            String url = "jdbc:mysql://yamanote.proxy.rlwy.net:3306/railway";
             String username = "root";
-            String password = "qwedcasxz";
+            String password = "CuPayaovbYQoBhPcTrYTDwXXzipcHWga";
             con = DriverManager.getConnection(url, username, password);
             if (con != null) {
                 System.out.println("Connected to the database!");
